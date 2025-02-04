@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:orientation="horizontal">
+        <LinearLayout
+            android:layout_width="400dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:text="P"
+                android:textStyle="bold"
+                android:textColor="@color/secondary"
+                android:textSize="30dp"
+                tools:ignore="HardcodedText,SpUsage" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="up Nourish."
+                android:textColor="@color/brown3"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                tools:ignore="HardcodedText,SpUsage" />
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@drawable/paw01" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ADMIN DASHBOARD"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_marginLeft="10dp"
+                android:textColor="@color/ash"/>
+        </LinearLayout>
+    </LinearLayout>
+    <View
+        android:layout_width="420dp"
+        android:layout_height="4dp"
+        android:background="@color/brown3"
+        android:layout_gravity="center"
+        android:layout_marginBottom="5dp"/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="5dp"
+            android:text="Admin > | "/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="Admin Dashboard > | " />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="Update Product >" />
+
+
+    </LinearLayout>
+    <View
+        android:layout_width="420dp"
+        android:layout_height="4dp"
+        android:background="@color/brown3"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="40dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Update Product"
+        android:textSize="23sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="45dp"
+        android:layout_gravity="center"
+        android:textColor="@color/brown3"/>
+    <EditText
+        android:id="@+id/idEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:background="#00000000"
+        android:textAlignment="center"
+        android:textSize="19sp"
+        android:hint="Product ID" />
+    <EditText
+        android:id="@+id/nameEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:background="#00000000"
+        android:textAlignment="center"
+        android:textSize="19sp"
+        android:hint="Product Name" />
+    <EditText
+        android:id="@+id/brandEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:background="#00000000"
+        android:textAlignment="center"
+        android:textSize="19sp"
+        android:hint="Brand" />
+    <EditText
+        android:id="@+id/ageEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:background="#00000000"
+        android:textAlignment="center"
+        android:textSize="19sp"
+        android:hint="Age Group" />
+    <EditText
+        android:id="@+id/priceEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:background="#00000000"
+        android:textAlignment="center"
+        android:textSize="19sp"
+        android:hint="Price" />
+    <EditText
+        android:id="@+id/imageEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:background="#00000000"
+        android:textAlignment="center"
+        android:textSize="19sp"
+        android:hint="Image URL" />
+    <EditText
+        android:id="@+id/availabilityEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:background="#00000000"
+        android:textAlignment="center"
+        android:textSize="19sp"
+        android:hint="Availability" />
+    <Button
+        android:id="@+id/updateProductButton"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:backgroundTint="@color/ash"
+        android:textColor="@color/brown3"
+        android:textStyle="bold"
+        android:textSize="17sp"
+        android:text="Update Product"
+        android:layout_marginTop="26dp" />
+</LinearLayout>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="brand_array">
+        <item>Henlo</item>
+        <item>Drools</item>
+        <item>Pedigree</item>
+        <item>Royal Canin</item>
+        <item>Signature</item>
+        <item>Bark Out</item>
+    </string-array>
+
+    <string-array name="age_array">
+        <item>Adult</item>
+        <item>Puppy</item>
+    </string-array>
+
+
+</resources>

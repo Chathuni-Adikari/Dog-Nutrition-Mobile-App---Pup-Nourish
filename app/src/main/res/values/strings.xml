@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Pup Nourish</string>
+
+    <string-array name="role_array">
+        <item>Select your Role</item>
+        <item>Customer</item>
+        <item>Admin</item>
+    </string-array>
+
+    <string name="select_brand">Select Brand</string>
+    <string name="select_age">Select Age</string>
+    <string name="view_cart">View Cart</string>
+
+    <string-array name="sort_options">
+        <item>Default</item>
+        <item>Price: Low to High</item>
+        <item>Price: High to Low</item>
+    </string-array>
+
+</resources>

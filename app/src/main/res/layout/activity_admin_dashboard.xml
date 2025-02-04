@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:orientation="horizontal">
+        <LinearLayout
+            android:layout_width="400dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:text="P"
+                android:textStyle="bold"
+                android:textColor="@color/secondary"
+                android:textSize="30dp"
+                tools:ignore="HardcodedText,SpUsage" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="up Nourish."
+                android:textColor="@color/brown3"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                tools:ignore="HardcodedText,SpUsage" />
+
+            <ImageView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@drawable/paw01" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ADMIN DASHBOARD"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_marginLeft="30dp"
+                android:textColor="@color/ash"/>
+        </LinearLayout>
+    </LinearLayout>
+    <View
+        android:layout_width="420dp"
+        android:layout_height="4dp"
+        android:background="@color/brown3"
+        android:layout_gravity="center"
+        android:layout_marginBottom="5dp"/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="5dp"
+            android:text="Admin >  |  "/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="Admin Dashboard  >  " />
+
+
+    </LinearLayout>
+    <View
+        android:layout_width="420dp"
+        android:layout_height="4dp"
+        android:background="@color/brown3"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:orientation="vertical">
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                app:cardCornerRadius="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="40dp"
+                android:elevation="10dp">
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:src="@drawable/breed0"
+                    android:background="@color/white"
+                    android:scaleType="centerCrop"
+                    tools:ignore="ContentDescription" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Admin Dashboard"
+                    android:textColor="@color/white"
+                    android:textSize="32sp"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="70dp"
+                    android:layout_marginTop="30dp"
+                    android:layout_centerHorizontal="true"/>
+            </androidx.cardview.widget.CardView>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="center">
+                <androidx.cardview.widget.CardView
+                    android:layout_width="180dp"
+                    android:layout_height="200dp"
+                    app:cardCornerRadius="30dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="40dp"
+                    android:elevation="10dp">
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="130dp"
+                        android:src="@drawable/wall4"
+                        android:background="@color/white"
+                        android:scaleType="centerCrop"
+                        tools:ignore="ContentDescription" />
+                    <Button
+                        android:id="@+id/viewProductsButton"
+                        android:layout_width="match_parent"
+                        android:layout_height="80dp"
+                        android:backgroundTint="@color/white"
+                        android:textColor="@color/brown3"
+                        android:textStyle="bold"
+                        android:textSize="18dp"
+                        android:layout_marginTop="130dp"
+                        android:text="View All Products" />
+                </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
+                    android:layout_width="180dp"
+                    android:layout_height="200dp"
+                    app:cardCornerRadius="30dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="14dp"
+                    android:layout_marginBottom="40dp"
+                    android:elevation="10dp">
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="130dp"
+                        android:src="@drawable/breed6"
+                        android:background="@color/white"
+                        android:scaleType="centerCrop"
+                        tools:ignore="ContentDescription" />
+                    <Button
+                        android:id="@+id/addProductButton"
+                        android:layout_width="match_parent"
+                        android:layout_height="80dp"
+                        android:backgroundTint="@color/white"
+                        android:textColor="@color/brown3"
+                        android:textStyle="bold"
+                        android:textSize="18dp"
+                        android:layout_marginTop="130dp"
+                        android:text="Add New Product" />
+                </androidx.cardview.widget.CardView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="center">
+                <androidx.cardview.widget.CardView
+                    android:layout_width="180dp"
+                    android:layout_height="200dp"
+                    app:cardCornerRadius="30dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="40dp"
+                    android:elevation="10dp">
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="130dp"
+                        android:src="@drawable/backgrou"
+                        android:background="@color/white"
+                        android:scaleType="centerCrop"
+                        tools:ignore="ContentDescription" />
+                    <Button
+                        android:id="@+id/updateProductButton"
+                        android:layout_width="match_parent"
+                        android:layout_height="80dp"
+                        android:backgroundTint="@color/white"
+                        android:textColor="@color/brown3"
+                        android:textStyle="bold"
+                        android:textSize="18dp"
+                        android:layout_marginTop="130dp"
+                        android:text="Update Product" />
+                </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
+                    android:layout_width="180dp"
+                    android:layout_height="200dp"
+                    app:cardCornerRadius="30dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="14dp"
+                    android:layout_marginBottom="40dp"
+                    android:elevation="10dp">
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="130dp"
+                        android:src="@drawable/food"
+                        android:background="@color/white"
+                        android:scaleType="centerCrop"
+                        tools:ignore="ContentDescription" />
+                    <Button
+                        android:id="@+id/deleteProductButton"
+                        android:layout_width="match_parent"
+                        android:layout_height="80dp"
+                        android:backgroundTint="@color/white"
+                        android:textColor="@color/brown3"
+                        android:textStyle="bold"
+                        android:textSize="18dp"
+                        android:layout_marginTop="130dp"
+                        android:text="Delete Product" />
+                </androidx.cardview.widget.CardView>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
